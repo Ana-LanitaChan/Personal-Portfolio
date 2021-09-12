@@ -111,6 +111,7 @@ li a:hover {
 
 .icon-btn:hover {
   background-color: var(--primary-color);
+  transition: all 150ms ease-in-out;
 }
 
 .inline-a {
@@ -141,6 +142,18 @@ li a:hover {
 
 /*Regular classes*/
 
+.foot-highlight {
+  border-style: solid;
+  border-width: thin;
+  border-color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin: 18px auto 18px auto;
+  max-width: 81%;
+  padding: 21px;
+  text-align: center;
+}
+
 .hero {
   background: linear-gradient(
     -180deg,
@@ -156,18 +169,6 @@ li a:hover {
   display: block;
   margin: 0 auto;
   max-width: 30%;
-  text-align: center;
-}
-
-.highlighted-p {
-  border-style: solid;
-  border-width: thin;
-  border-color: var(--primary-color);
-  font-family: "Montserrat", sans-serif;
-  display: block;
-  margin: 18px auto 18px auto;
-  max-width: 81%;
-  padding: 21px;
   text-align: center;
 }
 
@@ -205,6 +206,10 @@ li a:hover {
 
   p {
     font-size: 21px;
+  }
+
+  .foot-hidden {
+    display: none;
   }
 
   .hero-p-width {
