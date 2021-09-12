@@ -154,6 +154,16 @@ li a:hover {
   text-align: center;
 }
 
+.head-padding {
+  background: linear-gradient(
+    -180deg,
+    rgba(178, 166, 187, 0.5) 0%,
+    rgba(230, 230, 230, 0.5) 100%
+  );
+  padding-top: 100px;
+  margin: 0;
+}
+
 .hero {
   background: linear-gradient(
     -180deg,
@@ -197,6 +207,43 @@ li a:hover {
   margin-bottom: 32px;
 }
 
+/*Form classes*/
+
+.form-width {
+  max-width: 45%;
+}
+
+.form-input {
+  color: var(--heavy-gray);
+  background-color: var(--light-gray);
+  border-color: var(--heavy-gray);
+  border-width: thin;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 12px;
+}
+
+.form-calling-btn {
+  color: white;
+  background-color: var(--heavy-gray);
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 7px 0;
+  text-transform: uppercase;
+  transition: all 150ms ease-in-out;
+}
+
+.form-calling-btn:hover {
+  background-color: var(--primary-color);
+}
+
 /*Media Q*/
 
 @media (max-width: 576px) {
@@ -210,6 +257,10 @@ li a:hover {
 
   .foot-hidden {
     display: none;
+  }
+
+  .form-width {
+    max-width: 80%;
   }
 
   .hero-p-width {

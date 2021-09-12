@@ -43,16 +43,73 @@
           <ul class="align-self-center">
             <li><a href="/index.html" class="#">Home</a></li>
             <li><a href="/about.html" class="#">About</a></li>
-            <li><a href="/work.html" class="navbar-active">Work</a></li>
-            <li><a href="/contact.html" class="#">Contact</a></li>
+            <li><a href="/work.html" class="#">Work</a></li>
+            <li><a href="/contact.html" class="navbar-active">Contact</a></li>
           </ul>
         </nav>
       </div>
     </div>
+    <!--Hero-->
+    <div class="text-center head-padding">
+      <h1>Contact</h1>
+    </div>
 
-    *your content here*
+    <!--Contact Form-->
+    <div class="container mb-5 form-width">
+      <form
+        id="fs-frm"
+        name="simple-contact-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/xwkayegp"
+        method="post"
+      >
+        <fieldset id="fs-frm-inputs">
+          <div class="row">
+            <input
+              type="text"
+              name="name"
+              id="full-name"
+              placeholder="Your name here"
+              required="required"
+              class="form-input"
+            />
+          </div>
+          <div class="row">
+            <input
+              type="email"
+              name="_replyto"
+              id="email-address"
+              placeholder="your_email@example.com"
+              required="required"
+              class="form-input"
+            />
+          </div>
+          <div class="row">
+            <textarea
+              rows="5"
+              name="message"
+              id="message"
+              placeholder="Your message"
+              required="required"
+              class="form-input"
+            ></textarea>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" class="form-calling-btn" />
+          </div>
+
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Contact Form Submission"
+          />
+        </fieldset>
+      </form>
+    </div>
 
     <!--Footer-->
+    <footer class="mb-5">
       <div class="text-center">
         <a
           href="https://www.instagram.com/ui.sorceress/"
@@ -80,21 +137,23 @@
         </a>
       </div>
 
-      <h4 class="text-center mt-3 mb-3">
-        <a href="mailto:lanita.chan@gmail.com" class="inline-a"
-          >lanita.chan@gmail.com</a
-        >
-      </h4>
+      <div>
+        <h4 class="text-center mt-3 mb-3">
+          <a href="mailto:lanita.chan@gmail.com" class="inline-a"
+            >lanita.chan@gmail.com</a
+          >
+        </h4>
 
-      <p class="text-center">
-        This website is coded by Ana Aguilar, and is
-        <a
-          href="https://github.com/Ana-LanitaChan/Personal-Portfolio"
-          target="_blank"
-          class="inline-a"
-          >open-sourced</a
-        >
-      </p>
+        <p class="text-center m-3">
+          This website is coded by Ana Aguilar, and is
+          <a
+            href="https://github.com/Ana-LanitaChan/Personal-Portfolio"
+            target="_blank"
+            class="inline-a"
+            >open-sourced.</a
+          >
+        </p>
+      </div>
     </footer>
 
     <!--Bootstrap JS-->
