@@ -35,17 +35,21 @@
     <div class="navbar-color fixed-top">
       <div class="container pt-2 pb-2">
         <nav class="d-flex justify-content-between">
-          <a href="/index.html"
+          <a href="/index.html" title="Home"
             ><img
               src="/Images/UIS_logo.png"
               alt="UI Sorcerer"
               class="navbar-logo"
           /></a>
           <ul class="align-self-center">
-            <li><a href="/index.html" class="#">Home</a></li>
-            <li><a href="/about.html" class="#">About</a></li>
-            <li><a href="/work.html" class="navbar-active">Work</a></li>
-            <li><a href="/contact.html" class="#">Contact</a></li>
+            <li><a href="/index.html" class="#" title="Home">Home</a></li>
+            <li><a href="/about.html" class="#" title="About">About</a></li>
+            <li>
+              <a href="/work.html" class="navbar-active" title="Work">Work</a>
+            </li>
+            <li>
+              <a href="/contact.html" class="#" title="Contact">Contact</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -63,12 +67,13 @@
         <div class="col-sm-8 ps-3 pe-3 pb-3">
           <img
             src="Images/img_placeholder.jpeg"
-            alt="#"
+            alt="Weather App"
             class="img-fluid mb-3"
+            id="weather-app"
           />
         </div>
         <div class="col-sm-4 ps-3 pe-3 align-self-center">
-          <h4>Random App</h4>
+          <h4>Weather App</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
             sapiente soluta qui impedit iusto libero possimus accusamus quia
@@ -78,7 +83,8 @@
           <a
             href="#"
             class="btn btn-light container-fluid rounded-0 secondary-btn"
-            >App 01</a
+            title="Weather App"
+            >Launch Weather App</a
           >
           <hr class="hr-hidden hr-margin" />
         </div>
@@ -88,10 +94,11 @@
         <div class="col-sm-6 ps-3 pe-3 pb-3">
           <img
             src="Images/img_placeholder.jpeg"
-            alt="#"
+            alt="Gachapon App"
             class="img-fluid mb-3"
+            id="gachapon-app"
           />
-          <h4>Random App</h4>
+          <h4>Gachapon App</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
             sapiente soluta qui impedit iusto libero possimus accusamus quia
@@ -101,17 +108,19 @@
           <a
             href="#"
             class="btn btn-light container-fluid rounded-0 secondary-btn"
-            >App 01</a
+            title="Gachapon App"
+            >Launch Gachapon App</a
           >
           <hr class="hr-hidden hr-margin" />
         </div>
         <div class="col-sm-6 ps-3 pe-3 pb-3">
           <img
             src="Images/img_placeholder.jpeg"
-            alt="#"
+            alt="gBonita App"
             class="img-fluid mb-3"
+            id="gbonita-app"
           />
-          <h4>Random App</h4>
+          <h4>gBonita App</h4>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
             sapiente soluta qui impedit iusto libero possimus accusamus quia
@@ -121,7 +130,8 @@
           <a
             href="#"
             class="btn btn-light container-fluid rounded-0 secondary-btn"
-            >App 01</a
+            title="gBonita App"
+            >Launch gBonita App</a
           >
           <hr class="hr-hidden hr-margin" />
         </div>
@@ -138,7 +148,10 @@
             <h4 class="text-dark">Let's work together</h4>
           </div>
           <div class="text-start m-0 p-0">
-            <a href="/contact.html" class="btn btn-dark rounded-0 calling-btn"
+            <a
+              href="/contact.html"
+              title="Contact"
+              class="btn btn-dark rounded-0 calling-btn"
               >Contact</a
             >
           </div>
@@ -185,6 +198,7 @@
           href="https://github.com/Ana-LanitaChan/Personal-Portfolio"
           target="_blank"
           class="inline-a"
+          title="GitHub Profile"
           >open-sourced.</a
         >
       </p>
